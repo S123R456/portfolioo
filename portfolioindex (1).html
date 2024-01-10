@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="portdolio.css">
+    <link rel="stylesheet" href="print.css" media="print">
+    <script src="https://kit.fontawesome.com/428189b5bd.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id = "header">
+        <div  class="container">
+        <nav>
+            <img src="newlogoo.png"  class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Service</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>HTML CSS</p>
+            <h1>Hi,Iam <span>Savier Rithick M</span> <br> Chennai</h1>
+        </div>
+        </div>
+    </div>
+    <!----------------about------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="poim.jpeg" alt="logo">
+                </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-tittle">About Me</h1>
+                        <br>
+                        <p>Hello, my name is Savier Rithick, and I am a 20-year-old student pursuing my Bachelor's degree in Computer Science and Engineering at Sathayabma University. I take great pride in maintaining a CGPA of 8.2 throughout my academic journey.
+
+                            I hail from Krishnagiri and completed my high school education at Don Bosco MAT.HR.Sec.School. During my time there, I gained valuable knowledge and skills that have helped me excel in my current field of study.
+                            
+                            I recently completed an internship at MAkO IT LAB, where I worked as a Basic Javascript Developer. This experience allowed me to develop my coding skills and exposed me to the world of web development. I am grateful for this opportunity as it provided me with hands-on experience and gave me a taste of the real-world working environment.
+                            
+                            Apart from academics, I enjoy playing cricket and spending quality time with my friends. These activities help me unwind and recharge, allowing me to perform to the best of my abilities.
+                            
+                            Overall, I am a dedicated and hardworking individual who is passionate about Computer Science and Engineering. I look forward to exploring different facets of this field and making a significant contribution to society. Thank you for taking the time to get to know me.</p>
+                        <br>
+                        <div class="tab-tittles">
+                            <p class="tab-links active-link" onclick="openTab(event,'Skills')"><B>Skills</B></p>
+                            <p class="tab-links" onclick="openTab(event,'Experiance')"><B>Experiance</B></p>
+                            <p class="tab-links" onclick="openTab(event,'Education')"><b>Education</b></p>
+                            
+                        </div>
+                        <div class="tab-contents active-tab" id="Skills">
+                            <ul>
+                                <li><span>HTML</span><br>Front-end-Developer</li>
+                                <li><span>CSS</span><br>Front-end-Developer</li>
+                                <li><span>Javascript</span><br>Front-end-Developer</li>
+                            </ul>
+                        </div>
+                        <br>
+                        <div class="tab-contents" id="Experiance">
+                            <ul>
+                                <li><span>MAKO IT LAB </span><br>internship <br> Javascript Domain</li>
+                            
+                            </ul>
+                        </div>
+                        <br>
+                        <div class="tab-contents" id="Education">
+                            <ul>
+                                <li><span>Colloge</span><br>sathayabma university <br> B.E <br> Computer science and engineering</li>
+                                <li><span>High School</span><br>Don bosco <br> Krishnagiri</li>
+                                <li><span>SSLC</span><br> Don bosco <br> Krishnagiri</li>
+                            </ul>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Service -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-tittle-service">
+                My Service
+            </h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2><b>HTML</b></h2>
+                    <p>HTML is the standard markup language for creating Web pages. </p><br>
+                    <a href="#">View</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-css3-alt"></i>
+                    <h2><b>CSS</b></h2>
+                    <p>CSS (Cascading Style Sheets) is used to style and layout web pages — for example, to alter the font, color, size, and spacing of your content, split it into multiple columns, or add animations and other decorative features.</p><br>
+                    <a href="#">View</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-square-js"></i>
+                    <h2><b>Javascript</b></h2>
+                    <p>Javascript is used by programmers across the world to create dynamic and interactive web content like applications and browsers. JavaScript is so popular that it's the most used programming language in the world, used as a client-side programming language by 97.0% of all websites.</p><br>
+                    <a href="#">View</a>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- portfolio -->
+<div id="portfolio">
+    <div class="container">
+    <h1 class="sub-tittle">My Work</h1>
+    <div class="work-list">
+        <div class="work">
+            <img src="brandon-morales-i2l7xcV5kIQ-unsplash.jpg" alt="">
+            <div class="layer">
+                <h3><b>Driver Drowsiness Detection</b></h3>
+                <p>Driver drowsiness detection is an important car safety technology that helps to prevent accidents caused by driver fatigue. According to various studies, it is estimated that around 20% of all road accidents are fatigue-related, and up to 50% of accidents on certain roads can be attributed to driver drowsiness. This is why drowsiness detection systems have become an important feature in many modern vehicles.
+
+                   </p>
+                <a href="#"><i class="fa-brands fa-intercom"></i></a>
+            </div>
+        </div>
+        <div class="work">
+            
+            <img src="toa-heftiba-v1NeSutzVIA-unsplash.jpg" alt="">
+            <div class="layer">
+                <h3><B>Doctor Appointment Booking System</B></h3>
+                <p>The proposed project is a smart online appointment booking system for doctors. It allows users to select preferred dates and times, view available slots, and cancel appointments. The system also includes a feature for calculating monthly earnings. It uses Asp.net for the front-end and SQL database for the back-end.</p>
+                <a href="#"><i class="fa-brands fa-intercom"></i></a>
+            </div>
+        </div>
+        <div class="work">
+            <img src="mitchell-luo-XQjovx-X5-k-unsplash.jpg" alt="">
+            <div class="layer">
+                <h3><b>Cloud Integration</b></h3>
+                <p>Cloud integration is a system of tools and technologies that connects various applications, systems, repositories, and IT environments for the real-time exchange of data and processes.
+
+                    Cloud integration can also be referred to as cloud data integration, cloud system integration, cloud-based integration, as well as iPaaS.</p>
+                <a href="#"><i class="fa-brands fa-intercom"></i></a>
+            </div>
+        </div>
+    </div>
+    <a href="#" class="btn">see more</a>
+</div>
+
+</div>
+<!-- ---------------------contact-------------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class = "sub-tittle">Contact Me</h1>
+                <p><i class="fa-sharp fa-regular fa-paper-plane"></i>rithick01is@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>6383928191</p>
+                <div class="social-icons">
+                    <p><a href=""><i class="fa-brands fa-instagram"></i></a><b>rithick_31</b></p>
+                    <p><a href=""><i class="fa-brands fa-facebook"></i></a>Savier rithick</p>
+           
+          
+            <div>
+            <a href="file:///C:/Users/User/Downloads/SIST-BE-CSE-39110912-Savier%20RithickCV.pdf" download class="btn btn2">Download Cv</a>
+        </div>
+                </div>
+        </div>
+        <div class="contact-right">
+            <form name="submit-to-google-sheet">
+                <input type="text" name="Name" placeholder="Your Name"required>
+                <input type="email" name="email" placeholder="Your Email"required>
+                <textarea name="Message" rows="10" placeholder="Your Message"></textarea>
+                <button type="submit" class="btn btn2">submit</button>
+
+            </form>
+        </div>
+    </div>
+</div>
+</div>
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function openTab(event, tabname) {
+        for (tablink of tablinks) {
+            tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents) {
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+
+<script>
+    var sidemeu = document.getElementById("sidemenu")
+
+    function openmenu(){
+        sidemeu.style.right = "0";
+    }
+    function closemenu(){
+        sidemeu.style.right = "-200";
+    }
+
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxv3j5xBf80ePDDpYfYo2O3_yY9x_ggO0MixGy4WR8I4UQmgkpTCGbnFnQnFo-xHbIY/exec'
+    const form = document.forms['submit-to-google-sheet']
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => console.log('Success!', response))
+        .catch(error => console.error('Error!', error.message))
+    });
+  </script>
+
+</body>
+</html>
